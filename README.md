@@ -11,7 +11,7 @@
 -keyout mycert.pem -out mycert.pem - куда сохраняем  
 # Компиляция  
 ` gcc -o main main.c -L/usr/lib -lssl -lcrypto`  
-# Приvер файла Keys.txt  
+# Пример файла Keys.txt  
 ![image](https://github.com/denizzzzka/SSL-client-server/assets/91347518/9f3a2bec-5c2c-4753-852d-74aab5e19ab5)  
 # Пример зашифрованных сообжений и дешифровки  
 Дешифровка выполняется с помощью сертификата и файла Keys.txt  
