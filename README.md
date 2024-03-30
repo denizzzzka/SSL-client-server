@@ -8,7 +8,6 @@
 -noenc - приватный ключ не зашифрован  
 -days - время жизни, используется из-за флага -x509  
 -newkey rsa - новый ключ, для генерации используется rsa, используется из-за флага -x509  
--keyout mycert.pem -out mycert.pem - куда сохраняем
-
-
-
+-keyout mycert.pem -out mycert.pem - куда сохраняем  
+# Компиляция  
+` gcc -o main main.c -L/usr/lib -lssl -lcrypto`
